@@ -19,7 +19,8 @@ Rheumatoid arthritis (RA) is a common and complex autoimmune disorder in which t
 
 WORKFLOW
 
-1. Open UCSC Genome Browser
+
+1.Open UCSC Genome Browser
 
 
 2.Search rs2476601,Target coordinates:
