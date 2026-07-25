@@ -52,7 +52,7 @@ rs2476601 - chr1:113834846-113835046
 5.https://crispor.gi.ucsc.edu/crispor.py
 
 
-6.Paste the sequence---
+6.Paste the sequence
 
 
 7.Select Genome: Homo sapiens - Human - UCSC hg38
