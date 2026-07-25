@@ -4,13 +4,13 @@ TABLE OF CONTENTS
 
 + [Introduction](#introduction)
 
-+ Objective
++ [Objective](#objective)
 
-+ Background
++ [Background](#background)
 
-+ Workflow
++ [Workflow](#workflow)
 
-+ References
++ [References](#references)
 
   
 INTRODUCTION
