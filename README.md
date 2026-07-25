@@ -19,43 +19,26 @@ Rheumatoid arthritis (RA) is a common and complex autoimmune disorder in which t
 
 WORKFLOW
 
-UCSC Genome Browser
+1. Open UCSC Genome Browser,Search rs2476601,Target coordinates:
+rs2476601 - chr1:113834846-113835046,Select GRCh38 / hg38 Assembly
 
-<img width="28" height="61" alt="image" src="https://github.com/user-attachments/assets/3d95ffa9-2ba4-4276-b72c-c3e56dc1e6d0" />
+2.View--DNA Sequene--Get DNA--Copy 
 
 
-```mermaid
-flowchart TD
-    %% Node Definitions
-    A[Start: PTPN22 rs2476601 Study] --> B[UCSC Genome Browser]
-    
-    subgraph Step1["Step 1: Fetch Target Sequence"]
-        B -->|Search rs2476601| C[Select GRCh38 / hg38 Assembly]
-        C -->|Get DNA View| D[Extract 201 bp Flanking Window<br/>chr1:113834846-113835046]
-        D -->|Save File| E["data/target_hg38.fasta<br/>(Target Base at Position 101)"]
-    end
+3.https://crispor.gi.ucsc.edu/crispor.py
 
-    subgraph Step2["Step 2: CRISPOR Web Design"]
-        E -->|Paste Sequence| F[CRISPOR Tool]
-        F -->|Select Settings| G["Genome: Homo sapiens (hg38)<br/>PAM: 20bp-NGG (SpCas9)"]
-        G -->|Run Analysis| H[Generated 21 Candidate gRNAs]
-    end
 
-    subgraph Step3["Step 3: Guide Selection Criteria"]
-        H --> I{Filtering Rules}
-        I -->|Condition 1| J["Cleavage Distance <= 10 bp from Pos 101"]
-        I -->|Condition 2| K["Doench Efficiency Score > 50"]
-        I -->|Condition 3| L["MIT Off-Target Score > 75"]
-    end
+4. Paste the sequence, Select Genome: Homo sapiens - Human - UCSC hg38, Select PAM :20bp-NGG (SpCas9)
 
-    subgraph Step4["Step 4: Output & Storage"]
-        J & K & L --> M[Select Top Candidate gRNA]
-        M -->|Export TSV| N["results/crispor_results.tsv"]
-        M -->|Document Selection| O["results/selected_guides.md"]
-    end
 
-    O --> P[Ready for ssODN Repair Template Design]
-```
+5.SUBMIT
+
+
+6.Result analysis based on Scores.
+
+
+
+
 
 
 
