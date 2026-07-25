@@ -2,13 +2,13 @@
 
 The input sequence is of 201bp and has 21 possible guide RNA's.Position 101 in 201bp is the target position.This is the forward genomic sequence.
 
-MIT Specificity Score: This score tells how specific is the cut made by cas9.
+MIT Specificity Score: This score represents how specific is the cut made by cas9.
 
 
 CFD Specificity Score: This score is the aggregate of specifities of all individual scores of off targets.
 
 
-Predicted efficient: how efficiently it can cut.
+Predicted efficient: measures how efficiently cas9 can cut.
 
 
 Higher is the score,more is the specificity.
