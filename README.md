@@ -19,22 +19,35 @@ Rheumatoid arthritis (RA) is a common and complex autoimmune disorder in which t
 
 WORKFLOW
 
-1. Open UCSC Genome Browser,Search rs2476601,Target coordinates:
-rs2476601 - chr1:113834846-113835046,Select GRCh38 / hg38 Assembly
-
-2.View--DNA Sequene--Get DNA--Copy 
+1. Open UCSC Genome Browser
 
 
-3.https://crispor.gi.ucsc.edu/crispor.py
+2.Search rs2476601,Target coordinates:
+rs2476601 - chr1:113834846-113835046
 
 
-4. Paste the sequence--- Select Genome: Homo sapiens - Human - UCSC hg38, Select PAM :20bp-NGG (SpCas9)
+3.Select GRCh38 / hg38 Assembly
 
 
-5.SUBMIT
+4.View--DNA Sequene--Get DNA--Copy 
 
 
-6.Result analysis based on Scores.
+5.https://crispor.gi.ucsc.edu/crispor.py
+
+
+6.Paste the sequence---
+
+
+7.Select Genome: Homo sapiens - Human - UCSC hg38
+
+
+8.Select PAM :20bp-NGG (SpCas9)
+
+
+9.SUBMIT
+
+
+10.Result analysis based on Scores.
 
 
 
