@@ -2,7 +2,7 @@
 
 TABLE OF CONTENTS
 
-+ [Link Text](#Introduction)
++ [Introduction](#introduction)
 
 + Objective
 
