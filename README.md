@@ -28,7 +28,7 @@ rs2476601 - chr1:113834846-113835046,Select GRCh38 / hg38 Assembly
 3.https://crispor.gi.ucsc.edu/crispor.py
 
 
-4. Paste the sequence, Select Genome: Homo sapiens - Human - UCSC hg38, Select PAM :20bp-NGG (SpCas9)
+4. Paste the sequence--- Select Genome: Homo sapiens - Human - UCSC hg38, Select PAM :20bp-NGG (SpCas9)
 
 
 5.SUBMIT
